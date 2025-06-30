@@ -1,0 +1,102 @@
+#####1. Basic Functions
+abs() – Returns the absolute value of a number.
+all() – Returns True if all elements of the iterable are true.
+any() – Returns True if any element of the iterable is true.
+ascii() – Returns a string containing a printable version of an object.
+bin() – Converts an integer to a binary string.
+bool() – Converts a value to a boolean (True or False).
+bytearray() – Returns a new array of bytes.
+bytes() – Returns a new bytes object.
+callable() – Checks if an object appears callable (can be called).
+chr() – Converts an integer to its corresponding Unicode character.
+classmethod() – Returns a class method for the given function.
+compile() – Compiles source into a code or AST object.
+complex() – Creates a complex number.
+delattr() – Deletes an attribute from an object.
+dict() – Creates a new dictionary.
+dir() – Returns a list of valid attributes for an object.
+divmod() – Returns a tuple of the quotient and remainder.
+eval() – Executes a Python expression inside a given context.
+exec() – Executes a Python code block dynamically.
+filter() – Filters an iterable based on a function.
+float() – Converts a value to a float.
+format() – Returns a formatted version of a string.
+frozenset() – Returns a new frozenset object.
+getattr() – Returns the value of an attribute of an object.
+globals() – Returns a dictionary representing the global namespace.
+hasattr() – Checks if an object has a specific attribute.
+hash() – Returns the hash value of an object.
+help() – Invokes the built-in help system.
+hex() – Converts an integer to a hexadecimal string.
+id() – Returns the unique ID of an object.
+input() – Reads input from the user.
+int() – Converts a value to an integer.
+isinstance() – Checks if an object is an instance of a class or a subclass.
+issubclass() – Checks if a class is a subclass of another class.
+iter() – Returns an iterator for an object.
+len() – Returns the length of an object.
+list() – Creates a new list.
+locals() – Returns a dictionary representing the current local namespace.
+map() – Applies a function to all items in an iterable.
+max() – Returns the largest item in an iterable.
+memoryview() – Returns a memory view object.
+min() – Returns the smallest item in an iterable.
+next() – Returns the next item from an iterator.
+object() – Returns a new featureless object.
+oct() – Converts an integer to an octal string.
+open() – Opens a file and returns a file object.
+ord() – Converts a character to its Unicode code point.
+pow() – Returns the power of a number.
+print() – Prints to the console.
+property() – Returns a property attribute.
+range() – Returns an iterable range of numbers.
+repr() – Returns a string representation of an object.
+reversed() – Returns an iterator that accesses the elements of an iterable in reverse.
+round() – Returns a rounded value of a number.
+set() – Creates a new set.
+setattr() – Sets the value of an attribute of an object.
+slice() – Returns a slice object.
+sorted() – Returns a sorted list from an iterable.
+staticmethod() – Converts a method to a static method.
+str() – Converts a value to a string.
+sum() – Sums up all items in an iterable.
+super() – Returns a proxy object that represents the parent classes.
+tuple() – Creates a new tuple.
+type() – Returns the type of an object.
+vars() – Returns the __dict__ attribute of an object.
+zip() – Aggregates elements from iterables.
+#####2. Special Functions
+__import__() – Used for dynamic importing of modules.
+__builtins__ – Provides access to the built-in namespace.
+__doc__ – Provides the docstring of an object.
+__file__ – Provides the file path of a module.
+############3. Input/Output
+input() – Prompts the user for input.
+print() – Prints the provided arguments to the console.
+##########4. Type Conversions
+int() – Converts a value to an integer.
+float() – Converts a value to a float.
+str() – Converts a value to a string.
+complex() – Converts a value to a complex number.
+bool() – Converts a value to a boolean.
+list() – Converts a value to a list.
+tuple() – Converts a value to a tuple.
+set() – Converts a value to a set.
+dict() – Converts a sequence of key-value pairs to a dictionary.
+###########5. Higher-Order Functions
+map() – Applies a function to all items in an iterable.
+filter() – Filters an iterable based on a function.
+reduce() (from functools) – Applies a function cumulatively to the items of an iterable.
+sorted() – Returns a sorted list from an iterable.
+reversed() – Reverses an iterable.
+############6. Mathematical Functions
+abs() – Returns the absolute value of a number.
+divmod() – Returns the quotient and remainder of a division.
+pow() – Returns the power of a number.
+round() – Returns a rounded value.
+###########7. Object Reflection
+getattr() – Returns the value of an object's attribute.
+setattr() – Sets the value of an object's attribute.
+delattr() – Deletes an attribute from an object.
+hasattr() – Checks if an object has an attribute.
+
